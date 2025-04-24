@@ -33,7 +33,7 @@ export default function Highlights() {
                 {mainData?.data?.eventHighlights?.Images.map((data) => {
                   return (
                     <>
-                      <div className="col-lg-4 col-md-6">
+                      <div className="col-lg-6 col-md-6">
                         <div className="blog4-boxarea">
                           <div className="img1">
                             {console.log(data?.highlightsImg?.formats)}
@@ -45,17 +45,17 @@ export default function Highlights() {
                           <div className="content-area">
                             <ul>
                               <li>
-                                <Link href="/#">
-                                  <img
-                                    src="/assets/img/icons/user1.svg"
+                               
+                                  {/* <img
+                                    src="/assets/img/icons/choose1.svg"
                                     alt=""
-                                  />
+                                  /> */}
                                   {data?.imgCaption}
-                                </Link>
+                               
                               </li>
                             </ul>
                             <div className="space20" />
-                            <Link href="/blog-single">{data?.imgDetail}</Link>
+                            {data?.imgDetail}
                             <div className="space24" />
                           </div>
                         </div>

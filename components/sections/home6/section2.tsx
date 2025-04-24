@@ -13,22 +13,22 @@ export default function Section2() {
 				<div className="others1-section-area">
 					<div className="container">
 						<div className="row">
-							<div className="col-lg-7 col-12 m-auto">
+							<div className="col-lg-5 col-10 m-auto">
 								<div className="timer-btn-area" id="timer-btn-area">
-									<span
+									{/*<span
 										className="close-icon"
 										onClick={() => setIsVisible(false)}
 									>
 										✖
-									</span>
+									</span> */}
 									<Countdown style={3} />
-									<div className="btn-area1">
+									 {/* <div className="btn-area1">
 										<Link className="vl-btn6" href="/pricing-plan">
 											<span className="demo">
 												Buy A Ticket <img src="/assets/img/icons/arrow2.svg" alt="" />
 											</span>
 										</Link>
-									</div>
+									</div> */}
 								</div>
 							</div>
 						</div>

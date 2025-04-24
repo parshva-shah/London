@@ -9,10 +9,17 @@ export default function Section1() {
 	return (
 		<>
 
-			<div className="hero1-section-area">
-				<div className="bg1">
-					<img src={mainData?.data?.bannerImg[0]?.bannerD?.formats?.large?.url} alt="" className="header-bg1" />
-				</div>
+<div className="container-fluid p-0">
+					<div className="row">
+						<div className="col-lg-12">
+<img src={mainData?.data?.bannerImg[0]?.bannerD?.formats?.large?.url} alt="" className="header-bg1 w-100" />
+</div>
+</div>
+</div>
+			<div className="hero1-section-areaOld">
+				{/* <div className="bg1">
+					
+				</div> */}
 				<div className="container">
 					<div className="row">
 						<div className="col-lg-6">
@@ -56,6 +63,9 @@ export default function Section1() {
 					</div>
 				</div>
 			</div>
+
+
+			
 
 		</>
 	)

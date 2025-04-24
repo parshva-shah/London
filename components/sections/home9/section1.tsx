@@ -6,10 +6,10 @@ export default function Section1() {
 	return (
 		<>
 
-			<div className="hero9-slider-area" style={{ backgroundImage: 'url(assets/img/bg/header-bg22.png)', backgroundRepeat: 'no-repeat', backgroundSize: 'cover', backgroundPosition: 'center bottom' }}>
+			<div className="hero9-slider-area" style={{ backgroundImage: 'url(assets/img/bg/London2025_bannerD.jpg)', backgroundRepeat: 'no-repeat', backgroundSize: 'cover', backgroundPosition: 'center bottom' }}>
 				<div className="container">
-					<div className="row align-items-center">
-						<div className="col-lg-7">
+					<div className="row align-items-center d-none">
+						<div className="col-lg-7 py-5">
 							<div className="hero8-header">
 								<h5><img src="/assets/img/icons/sub-logo1.svg" alt="" />WE ARE COMING FOR</h5>
 								<div className="space16" />
@@ -38,9 +38,9 @@ export default function Section1() {
 									</div>
 									<div className="col-lg-5">
 										<div className="heading12">
-											<h3>30 January 2025</h3>
+											<h3>20 - 21 June 2025</h3>
 											<div className="space16" />
-											<p><img src="/assets/img/icons/location1.svg" alt="" /> Secret Location In The UK</p>
+											<p><img src="/assets/img/icons/location1.svg" alt="" /> London Spiritual Centre</p>
 										</div>
 									</div>
 								</div>

@@ -10,6 +10,185 @@ Location:
 */
 @import url("https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&family=Space+Grotesk:wght@300..700&display=swap");
 
+
+/* Priyanka custom css starts */
+
+.accordion-button {
+	font-size: 1.3rem !important;
+}
+.about1-section-area .about-header-area .about-auhtor-box {
+    background: #ffffff !important;
+    box-shadow: 0px 0 30px #12305540;
+}
+
+.about4-section-area .about4-heading ul li {
+	color: #fff !important;
+	font-size: 18px !important;
+}
+
+.homepage1-body, .accordion-button, .accordion-button:not(.collapsed), .nav-pills .nav-link.active, .nav-pills .show>.nav-link, .accordion-item {
+	background: #fff1e0 !important;
+}
+.accordion-item {
+	border: 1px solid #fff1e0 !important;
+}
+.blue-bg, .header-area.homepage1.sticky, .vl-btn1 {
+	background: #123055 !important;
+}
+
+.text-blue, .nav-pills .nav-link.active, .nav-pills .show>.nav-link, .event1-section-area .nav.nav-pills .nav-item button .cal, .event1-section-area .nav.nav-pills .nav-item button span.date, .accordion-button, .accordion-button:not(.collapsed), .about4-section-area .accordion-body .about4-heading ul li {
+	color: #123055 !important;
+}
+
+.lightblue-bg {
+	background: #425476 !important;
+}
+
+.text-lightblue {
+	color: #425476 !important;
+}
+
+.darkbrown-bg, .event1-section-area .nav.nav-pills .nav-item button.active .day, .cta1-section-area .cta1-main-boxarea {
+	background: #7C5D3A !important;
+}
+
+.text-darkbrown {
+	color: #7C5D3A !important;
+}
+
+.cream-bg, .about1-section-area .about-header-area .about-auhtor-box:hover .icons {
+	/* background: #d1b391 !important; */
+	background: #fff1e0 !important;
+}
+
+.text-cream, .vl-btn1, .homepage1-body .header-area.homepage1 .header-elements .main-menu ul li a {
+	color: #fff1e0 !important;
+}
+
+.grey-bg {
+	background: #BDC2BE !important;
+}
+
+.text-grey {
+	color: #BDC2BE !important;
+}
+
+.offwhite-bg {
+	background: #E1E2DA !important;
+}
+
+.text-offwhite, .event1-section-area .nav.nav-pills .nav-item button.active .day, .cta1-section-area .cta1-main-boxarea ul li a {
+	color: #E1E2DA !important;
+}
+
+.accordion-button:focus {
+	box-shadow: none !important;
+}
+.about4-section-area .accordion-body .about4-heading ul li {
+	font-size: 18px !important;
+}
+.accordion-item:first-of-type {
+	border-radius: 4px !important;
+}
+.cta1-section-area .cta1-main-boxarea ul li a {
+	font-size: 18px !important;
+}
+.cta1-section-area .cta1-main-boxarea ul li {
+    display: inline-block;
+    margin: 0 15px 0 0 !important;
+    padding-top: 15px !important;
+}
+.cta1-main-boxarea .firstcol {
+	border-right: 1px solid #fff;
+    margin-right: 30px;
+}
+/* .homepage1-body .header-area.homepage1 {
+    position: relative !important;
+} */
+
+
+.font-20 {
+	font-size: 20px !important;
+}
+
+.heading2 h5 {
+	text-transform: capitalize !important;
+}
+
+.about1-section-area .about-imges .about-btnarea a span {
+	background: #d1b391 !important;
+	color: #123055 !important;
+}
+
+.about-btnarea svg path {
+    fill: #123055 !important;
+}
+
+.homepage1-body .header-area.homepage1 .header-elements .site-logo img {
+    width: 250px !important;
+}
+
+.hero9-slider-area .timer-bg-area {
+    /* background: #d1b3919e !important; */
+    padding: 25px 80px !important;
+}
+
+.hero9-slider-area {
+	position: relative;
+	z-index: 1;
+	padding: 22% 0 20% !important;
+}
+
+.hero9-slider-area .timer-bg-area {
+	right: 0 !important;
+}
+
+.about1-section-area .about-imges .about-btnarea svg {
+    position: absolute;
+    top: -35px !important;
+    left: -33px !important;
+}
+.about1-section-area .about-imges .about-btnarea a span {
+	transform: none !important;
+}
+
+.bloginner-section-area .blog4-boxarea .content-area ul li {
+font-size: 22px !important;
+font-weight: 600;
+color: #000;
+}
+
+.bloginner-section-area .blog4-boxarea .content-area {
+font-size: 20px !important;
+line-height: 26px !important;
+}
+
+/* .event1-section-area {
+    background: transparent !important;
+} */
+
+.brands1-section-area {
+	background: transparent !important;
+}
+
+.about4-section-area .heading6 h2 {
+	font-size: 24px !important;
+}
+
+.faq-inner-section-area .faq-widget-area ul {
+    justify-content: center;
+    background: transparent !important;
+    border-radius: 16px;
+    padding: 0 20px;
+    width: 100% !important;
+    margin: 0 !important;
+}
+
+.footer1-sertion-area {
+    padding: 100px 0 32px !important;
+}
+
+/* Priyanka custom css ends */
 a,
 a:hover {
 	text-decoration: none;
@@ -517,7 +696,8 @@ img {
 :root {
 	--ztc-text-text-1: #fff;
 	--ztc-text-text-2: #1A1719;
-	--ztc-text-text-3: #544E51;
+	/* --ztc-text-text-3: #544E51; */
+	--ztc-text-text-3: #000;
 	--ztc-text-text-4: #FFBA00;
 	--ztc-text-text-5: #032530;
 	--ztc-text-text-6: #C0F037;

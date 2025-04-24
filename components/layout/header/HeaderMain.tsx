@@ -16,13 +16,13 @@ export default function HeaderMain({ scroll, isSearch, handleSearch }: any) {
           }`}
           id="header"
         >
-          <div className="container">
+          <div className="container-fluid px-5">
             <div className="row">
               <div className="col-lg-12">
                 <div className="header-elements">
                   <div className="site-logo">
                     <Link href="/">
-                      <img src="/assets/img/logo/logo1.png" alt="" />
+                      <img src="https://1342372186.rsc.cdn77.org/srpam/mission_logo.png" alt="" width="250px" />
                     </Link>
                   </div>
                   <div className="main-menu">
@@ -42,7 +42,7 @@ export default function HeaderMain({ scroll, isSearch, handleSearch }: any) {
                       })}
                     </ul>
                   </div>
-                  <div className="btn-area">
+                  {/* <div className="btn-area">
                     <div
                       className="search-icon header__search header-search-btn"
                       onClick={handleSearch}
@@ -73,7 +73,7 @@ export default function HeaderMain({ scroll, isSearch, handleSearch }: any) {
                         </Link>
                       </li>
                     </ul>
-                  </div>
+                  </div> */}
                   <div
                     className={`header-search-form-wrapper ${
                       isSearch ? "open" : ""

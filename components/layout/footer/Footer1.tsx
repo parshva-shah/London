@@ -4,9 +4,9 @@ import Link from 'next/link'
 export default function Footer1() {
 	return (
 		<>
-			<div className="footer1-sertion-area">
+			<div className="footer1-sertion-area blue-bg">
 				<div className="container">
-					<div className="row">
+					{/*<div className="row">
 						<div className="col-lg-3 col-md-6">
 							<div className="footer-logo-area">
 								<img src="/assets/img/logo/logo2.png" alt="" />
@@ -119,12 +119,12 @@ export default function Footer1() {
 								</div>
 							</div>
 						</div>
-					</div>
+					</div> */}
 					<div className="space60" />
 					<div className="row">
 						<div className="col-lg-12">
 							<div className="copyright">
-								<p>© Copyright {new Date().getFullYear()} -Eventify. All Right Reserved</p>
+								<p className="text-cream">© Copyright {new Date().getFullYear()}. All Right Reserved</p>
 							</div>
 						</div>
 					</div>
