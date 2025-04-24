@@ -10,12 +10,12 @@ const handleAccordion = (key: any) => {
 }
 	return (
 		<>
-			<div className="mobile-header mobile-haeder1 d-block d-lg-none">
+			<div className="mobile-header mobile-haeder1 d-block d-lg-none pb-2">
 				<div className="container-fluid">
 					<div className="col-12">
 						<div className="mobile-header-elements">
 							<div className="mobile-logo">
-								<Link href="//"><img src="/assets/img/logo/logo1.png" alt="" /></Link>
+								<Link href="srmd.org"><img src="https://1342372186.rsc.cdn77.org/srpam/mission_logo.png" alt="" width="220px"/></Link>
 							</div>
 							<div className="mobile-nav-icon dots-menu" onClick={handleMobileMenu}>
 								<i className="fa-solid fa-bars-staggered" />

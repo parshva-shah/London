@@ -12,6 +12,7 @@ import Section8 from "@/components/sections/home1/section8";
 import Section9 from "@/components/sections/home1/section9";
 import Section10 from "@/components/sections/home6/section2";
 import { MyProvider } from "./context/MainContext";
+import Highlights from "./highlights/page";
 export default function Home() {
   return (
     <>
@@ -19,6 +20,7 @@ export default function Home() {
         <Layout headerStyle={1} footerStyle={1}>
           <Section1 />
          <Section2 />
+         <Highlights />
           <Section3 />
           {/* <Section4 />
           <Section5 />

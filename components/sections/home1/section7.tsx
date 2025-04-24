@@ -22,19 +22,19 @@ export default function Section7() {
 						<div className="heading2">
 						<p className="text-center py-3 pb-4">The following sponsorship opportunities are available:</p>
 						</div>
-						<div className="col-lg-4 col-md-6" data-aos="zoom-in" data-aos-duration={800}>
-							<div className="brand-box">
-								<p>General Donation</p>
+						<div className="col-lg-4 col-md-4" data-aos="zoom-in" data-aos-duration={800}>
+							<div className="brand-box heading2">
+								<p>General Donation<br/>(No amount is too small)</p>
 							</div>
 						</div>
-						<div className="col-lg-4 col-md-6" data-aos="zoom-in" data-aos-duration={900}>
-							<div className="brand-box">
-							<p>Aarti & Chamar Lucky Draw (£250 per entry)	</p>
+						<div className="col-lg-4 col-md-4" data-aos="zoom-in" data-aos-duration={900}>
+							<div className="brand-box heading2">
+							<p>Aarti & Chamar <br />(Lucky Draw | £250 per entry)	</p>
 							</div>
 						</div>
-						<div className="col-lg-4 col-md-6" data-aos="zoom-in" data-aos-duration={1000}>
-							<div className="brand-box">
-							<p>Swamivatsalya Laabh (£5,000 per family)</p>
+						<div className="col-lg-4 col-md-4" data-aos="zoom-in" data-aos-duration={1000}>
+							<div className="brand-box heading2">
+							<p>Swamivatsalya Laabh <br />(£5,000 per family)</p>
 							</div>
 						</div>
 					</div>

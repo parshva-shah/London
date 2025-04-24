@@ -19,7 +19,7 @@ export default function Countdown({ style }: any) {
 	const [timeDif, setTimeDif] = useState(() => {
 		const now = Date.now()
 		const endDateTime = new Date()
-		endDateTime.setDate(endDateTime.getDate() + 2) // Set end date 2 days from now
+		endDateTime.setDate(endDateTime.getDate() + 57) // Set end date 2 days from now
 		return endDateTime.getTime() - now
 	})
 

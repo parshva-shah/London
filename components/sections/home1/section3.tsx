@@ -17,19 +17,19 @@ const handleAccordion = (key: any) => {
 	return (
 		<>
 
-			<div className="event1-section-area blue-bg sp1">
+			<div className="event1-section-area sp1" style={{ backgroundImage: 'url(assets/img/london/London_banner_background.webp)', backgroundRepeat: 'repeat', backgroundSize: 'contain', backgroundPosition: 'center bottom' }}>
 				<div className="container">
 					<div className="row">
 						<div className="col-lg-6 m-auto">
 							<div className="event-header heading2 space-margin60 text-center">
-								<h5 data-aos="fade-left" className="cream-bg text-blue" data-aos-duration={800}>Event Schedule</h5>
+								<h5 data-aos="fade-left" className="darkbrown-bg text-offwhite" data-aos-duration={800}>Event Schedule</h5>
 								<div className="space16" />
 								<h2 className="text-anime-style-3 text-cream">Sacred Weekend Schedule</h2>
 							</div>
 						</div>
 					</div>
 					<div className="row">
-						<div className="col-lg-12">
+						<div className="col-lg-12 p-0">
 							<div data-aos="fade-up" data-aos-duration={900}>
 								<ul className="nav nav-pills d-none space-margin60" id="pills-tab" role="tablist">
 									<li className="nav-item" onClick={() => handleTab(1)}>
@@ -149,7 +149,7 @@ const handleAccordion = (key: any) => {
 								<h5 data-aos="fade-left" className="darkbrown-bg text-offwhite" data-aos-duration={800}>PLEASE BE SEATED 30 MINUTES BEFORE THE EVENT START TIME.</h5>
 								<div className="space10" />
 								<ul data-aos="fade-left" data-aos-duration={1000}>
-									<li><img src="/assets/img/icons/check4.svg" alt="" />Dinner has been arranged from 6:00 pm to 7:30 pm on Friday & Saturday. </li>
+									<li><img src="/assets/img/icons/check4.svg" alt="" />Dinner has been arranged from 6:00 pm to 7:30 pm on Friday & Saturday </li>
 									<li><img src="/assets/img/icons/check4.svg" alt="" />Explore an immersive exhibition on the global initiatives of SRMD for one hour prior to and follow the event on both days.</li>
 							    </ul>
 						</div>
@@ -217,6 +217,11 @@ const handleAccordion = (key: any) => {
 
 						</div>
 						</div>
+					</div>
+					<div className="row">
+					<div className="btn-area1 text-center" data-aos="fade-left" data-aos-duration={1200}>
+									<Link href="/contact" className="vl-btn1 darkbrown-bg text-offwhite">Register Now</Link>
+								</div>
 					</div>
 				</div>
 			</div>

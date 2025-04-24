@@ -12,32 +12,31 @@ export default function Section9() {
 						<div className="col-lg-10 m-auto">
 							
 							<div className="cta1-main-boxarea">
-							<h2 className="text-offwhite">Contact</h2>
+							<h2 className="text-offwhite text-center pb-4">Contact</h2>
 								<div className="row">
-									<div className="col-lg-6 firstcol">
+									<div className="col-lg-6 col-md-6 firstcol">
 									<ul>
-									<li>
+									<li className="pb-3">
 										<Link href="/#">For Sponsorship</Link>
 									</li>
 								</ul>
 								<div className="about4-heading heading6">
-								<ul data-aos="fade-left d-block" data-aos-duration={1000}>
-									<li><img src="/assets/img/icons/user1.svg" alt="" />Aadit Virani</li>
-									<li><img src="/assets/img/icons/phn1.svg" alt="" /> +44 7986 555572</li>
-									<li><img src="/assets/img/icons/mail1.svg" alt="" />london.events@srmd.org</li>
+								<ul data-aos="d-block" data-aos-duration={1000}>
+									<li className="pb-2">Aadit Virani | +44 7986 555572</li>
+									<li>london.events@srmd.org</li>
 							    </ul>
 						       </div>
 									</div>
-									<div className="col-lg-4">
+									<div className="col-lg-4 col-md-5">
 									<ul>
-									<li className="m-0">
+									<li className="m-0 pb-3">
 										<Link href="/#">For Registrations</Link>
 									</li>
 								</ul>
 								<div className="about4-heading heading6">
-								<ul data-aos="fade-left d-block" data-aos-duration={1000}>
-									<li><img src="/assets/img/icons/phn1.svg" alt="" />07835 237 325</li>
-									<li><img src="/assets/img/icons/mail1.svg" alt="" />uk.registration@srmd.org</li>
+								<ul data-aos="d-block" data-aos-duration={1000}>
+									<li className="pb-2">07835 237 325</li>
+									<li>uk.registration@srmd.org</li>
 							    </ul>
 						       </div>
 									</div>

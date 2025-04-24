@@ -8,9 +8,9 @@ export default function Highlights() {
 
   return (
     <>
-      <Layout headerStyle={1} footerStyle={1}>
+      <Layout headerStyle={1}>
         <div>
-          <div
+          {/* <div
             className="inner-page-header"
             style={{ backgroundImage: "url(assets/img/bg/header-bg13.png)" }}
           >
@@ -24,7 +24,7 @@ export default function Highlights() {
                 </div>
               </div>
             </div>
-          </div>
+          </div> */}
           {/*===== HERO AREA ENDS =======*/}
           {/*===== BLOG AREA STARTS =======*/}
           <div className="bloginner-section-area sp1">

@@ -6,33 +6,20 @@ export default function Section1() {
 	return (
 		<>
 
-			<div className="hero9-slider-area" style={{ backgroundImage: 'url(assets/img/bg/London2025_bannerD.jpg)', backgroundRepeat: 'no-repeat', backgroundSize: 'cover', backgroundPosition: 'center bottom' }}>
-				<div className="container">
-					<div className="row align-items-center d-none">
-						<div className="col-lg-7 py-5">
-							<div className="hero8-header">
-								<h5><img src="/assets/img/icons/sub-logo1.svg" alt="" />WE ARE COMING FOR</h5>
-								<div className="space16" />
-								<h1 className="text-anime-style-3">World Music Events 2025</h1>
-								<div className="space32" />
-								<div className="btn-area1">
-									<Link href="/contact" className="vl-btn9"><span className="demo">Buy Tickets Now!</span></Link>
-									<Link href="/schedule" className="vl-btn9 btn2"><span className="demo">Schedules</span></Link>
-								</div>
-							</div>
-						</div>
-						<div className="col-lg-5">
-							<div className="img1">
-								<img src="/assets/img/all-images/hero/hero-img11.png" alt="" />
-							</div>
-						</div>
-					</div>
+			<div className="hero9-slider-area p-0">
+				<div className="container-fluid p-0">
 					<div className="row">
+						<img className="dkview" src="assets/img/london/LondonD.jpg" />
+						<img className="mbview" src="assets/img/london/LondonM.jpg" />
+					</div>
+				</div>
+				<div className="container hero9-slider-area pt-0 lightblue-bg">
+			<div className="row">
 						<div className="col-lg-12">
 							<div className="timer-bg-area">
 								<div className="row">
 									<div className="col-lg-7">
-										<div className="timer-btn-area">
+										<div className="timer-btn-area m-0">
 										<Countdown style={1} />
 										</div>
 									</div>
@@ -40,15 +27,17 @@ export default function Section1() {
 										<div className="heading12">
 											<h3>20 - 21 June 2025</h3>
 											<div className="space16" />
-											<p><img src="/assets/img/icons/location1.svg" alt="" /> London Spiritual Centre</p>
+											<p><img src="/assets/img/icons/location1.svg" alt="" /> Byron Hall, Harrow Leisure Centre, Christchurch Ave, 
+											Harrow HA3 5BD</p>
 										</div>
 									</div>
 								</div>
 							</div>
 						</div>
 					</div>
-				</div>
 			</div>
+			</div>
+			
 
 		</>
 	)

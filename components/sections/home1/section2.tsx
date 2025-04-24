@@ -55,7 +55,7 @@ export default function Section2() {
 									<div className="text">
 										<Link href="/#">Divine Evenings</Link>
 										<div className="space12" />
-										<p>Join us for soul-stirring bhakti and discourses on Friday, and a meditative sound bath with wisdom-filled discourse on Saturday.</p>
+										<p>Join us for discourses, soul-stirring bhakti and meditative sound bath</p>
 									</div>
 								</div>
 								<div className="space20" />
@@ -66,7 +66,7 @@ export default function Section2() {
 									<div className="text">
 										<Link href="/#">FREE Entry</Link>
 										<div className="space12" />
-										<p>Register now to be part of this transformative weekend.</p>
+										<p>Register now to be part of this transformative weekend</p>
 									</div>
 								</div>
 								<div className="space32" />

@@ -4,7 +4,7 @@ import Link from 'next/link'
 export default function Footer1() {
 	return (
 		<>
-			<div className="footer1-sertion-area blue-bg">
+			<div className="footer1-sertion-area"  style={{ backgroundImage: 'url(assets/img/london/London_banner_background.webp)', backgroundRepeat: 'no-repeat', backgroundSize: 'cover', backgroundPosition: 'center bottom' }}>
 				<div className="container">
 					{/*<div className="row">
 						<div className="col-lg-3 col-md-6">
