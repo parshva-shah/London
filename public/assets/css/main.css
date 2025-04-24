@@ -77,8 +77,11 @@ Location:
 	background: #E1E2DA !important;
 }
 
-.text-offwhite, .event1-section-area .nav.nav-pills .nav-item button.active .day, .cta1-section-area .cta1-main-boxarea ul li a {
+.text-offwhite, .event1-section-area .nav.nav-pills .nav-item button.active .day, .cta1-section-area .cta1-main-boxarea ul li a, .cta1-section-area .cta1-main-boxarea ul li {
 	color: #E1E2DA !important;
+}
+.cta1-section-area .cta1-main-boxarea ul li img {
+	margin-right: 10px;
 }
 
 .accordion-button:focus {
@@ -99,7 +102,7 @@ Location:
     padding-top: 15px !important;
 }
 .cta1-main-boxarea .firstcol {
-	border-right: 1px solid #fff;
+	border-right: 1px solid #E1E2DA;
     margin-right: 30px;
 }
 /* .homepage1-body .header-area.homepage1 {
