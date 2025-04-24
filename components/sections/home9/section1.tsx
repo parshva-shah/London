@@ -26,7 +26,7 @@ export default function Section1() {
 									<div className="col-lg-5">
 										<div className="heading12">
 											<h3>20 - 21 June 2025</h3>
-											<div className="space16" />
+											<div className="space10" />
 											<p><img src="/assets/img/icons/location1.svg" alt="" /> Byron Hall, Harrow Leisure Centre, Christchurch Ave, 
 											Harrow HA3 5BD</p>
 										</div>

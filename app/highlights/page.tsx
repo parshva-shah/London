@@ -27,8 +27,18 @@ export default function Highlights() {
           </div> */}
           {/*===== HERO AREA ENDS =======*/}
           {/*===== BLOG AREA STARTS =======*/}
-          <div className="bloginner-section-area sp1">
+          <div className="bloginner-section-area sp1 pb-5">
             <div className="container">
+			<div className="row">
+						<div className="col-lg-8 m-auto">
+							<div className="brand-header heading2 pb-3 text-center">
+								<h5 data-aos="fade-left" className="darkbrown-bg text-offwhite" data-aos-duration={800}>whats in store for you</h5>
+								<div className="space16" />
+								<h2 className="text-anime-style-3 text-blue pb-4">Event Highlights
+								</h2>
+							</div>
+						</div>
+					</div>
               <div className="row">
                 {mainData?.data?.eventHighlights?.Images.map((data) => {
                   return (

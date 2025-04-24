@@ -36,7 +36,7 @@ Location:
 	background: #123055 !important;
 }
 
-.text-blue, .nav-pills .nav-link.active, .nav-pills .show>.nav-link, .event1-section-area .nav.nav-pills .nav-item button .cal, .event1-section-area .nav.nav-pills .nav-item button span.date, .accordion-button, .accordion-button:not(.collapsed), .about4-section-area .accordion-body .about4-heading ul li {
+.text-blue, .nav-pills .nav-link.active, .nav-pills .show>.nav-link, .event1-section-area .nav.nav-pills .nav-item button .cal, .event1-section-area .nav.nav-pills .nav-item button span.date, .accordion-button, .accordion-button:not(.collapsed), .about4-section-area .accordion-body .about4-heading ul li, .bloginner-section-area .blog4-boxarea .content-area ul li {
 	color: #123055 !important;
 }
 
@@ -217,6 +217,48 @@ line-height: 26px !important;
     align-items: flex-start !important;
     border: none !important;
 }
+.container.hero9-slider-area.pt-0.lightblue-bg {
+    position: absolute;
+    top: auto;
+    bottom: 0;
+    right: 0;
+    background: transparent !important;
+}
+.brands1-section-area .brand-box {
+	padding: 30px 15px !important;
+}
+@media (min-width: 992px) and (max-width: 1024px) {
+	.event1-section-area .tab-content .tab-pane .tabs-widget-boxarea {
+		padding: 20px 20px 40px 20px !important;
+	}
+	.event1-section-area .tab-content .tab-pane .tabs-widget-boxarea .content-area {
+		padding: 0 0px 0 10px !important;
+	}
+	.event1-section-area .nav.nav-pills .nav-item button .vl-flex {
+		padding: 15px !important;
+	}
+	.container.hero9-slider-area.pt-0.lightblue-bg {
+		position: relative !important;
+		background: #425476 !important;
+	}
+	.hero9-slider-area .timer-bg-area {
+		width: 100% !important;
+	}
+	.hero9-slider-area .timer-bg-area .timer-btn-area .timer {
+        display: inline-flex !important;
+    }
+    .hero9-slider-area .timer-bg-area .timer-btn-area .timer .time-box {
+        margin-right: 10px !important;
+		padding: 16px 26px !important;
+    }
+	.hero9-slider-area .timer-bg-area .timer-btn-area .timer .time-box .time-value span {
+		font-size: 13px !important;
+		text-transform: capitalize !important;
+	}
+	.hero9-slider-area .heading12 h3 {
+		font-size: 22px !important;
+	}
+}
 @media only screen and (min-width: 768px) and (max-width: 991px) {
 	.hero9-slider-area.lightblue-bg {
         margin: -20px auto 0 !important;
@@ -239,8 +281,28 @@ line-height: 26px !important;
 	.brands1-section-area .brand-box {
 		padding: 30px 15px !important;
 	}
+	.container.hero9-slider-area.pt-0.lightblue-bg {
+		position: relative !important;
+		background: #425476 !important;
+	}
+	.bloginner-section-area .blog4-boxarea .content-area {
+		font-size: 18px !important;
+	}
+	.bloginner-section-area .blog4-boxarea .content-area {
+        margin: -30px 30px 0 0;
+    }
 }
 @media (max-width: 767px) {
+	.bloginner-section-area .blog4-boxarea .content-area {
+        margin: -30px 30px 0 0;
+    }
+	.bloginner-section-area .blog4-boxarea .content-area {
+		font-size: 18px !important;
+	}
+	.container.hero9-slider-area.pt-0.lightblue-bg {
+		position: relative !important;
+		background: #425476 !important;
+	}
 	.tab-content.d-flex {
 		display: block !important;
 	}
@@ -264,6 +326,9 @@ line-height: 26px !important;
 		padding-bottom: 20px;
 		width: 80%;
         margin: 0 auto;
+	}
+	.hero9-slider-area .timer-bg-area .timer-btn-area {
+		text-align: center;
 	}
 	.hero9-slider-area .timer-bg-area .timer-btn-area .timer {
         display: inline-flex !important;

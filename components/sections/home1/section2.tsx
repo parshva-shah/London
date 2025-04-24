@@ -5,7 +5,7 @@ export default function Section2() {
 	return (
 		<>
 
-			<div className="about1-section-area sp1">
+			<div className="about1-section-area sp1 pb-5">
 				<div className="container">
 					<div className="row align-items-center">
 						<div className="col-lg-6">
