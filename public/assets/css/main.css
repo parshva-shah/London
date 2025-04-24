@@ -227,7 +227,27 @@ line-height: 26px !important;
 .brands1-section-area .brand-box {
 	padding: 30px 15px !important;
 }
+.bloginner-section-area .blog4-boxarea .content-area {
+	margin: -30px 10px 0 10px !important;
+}
+.bloginner-section-area .blog4-boxarea .content-area {
+    font-size: 18px !important;
+    line-height: 26px !important;
+    height: 230px;
+}
 @media (min-width: 992px) and (max-width: 1024px) {
+	.col-md-6 {
+        flex: 0 0 auto;
+        width: 50% !important;
+    }
+	.bloginner-section-area .blog4-boxarea .content-area {
+		margin: -30px 10px 0 10px !important;
+	}
+	.bloginner-section-area .blog4-boxarea .content-area {
+		font-size: 18px !important;
+		line-height: 26px !important;
+		height: 180px;
+	}
 	.event1-section-area .tab-content .tab-pane .tabs-widget-boxarea {
 		padding: 20px 20px 40px 20px !important;
 	}
